@@ -1,0 +1,70 @@
+.date{
+    text-align:right;
+    background-color:  #1a75ff;
+     vertical-align: top;
+     border-bottom: 2px solid blue;
+     font-size:23px;
+}
+.header img {
+  float: left;
+   border: solid 1px #E5E5E5; 
+}
+.header h2 {
+  position: absolute;
+  top: 7px;
+  left: 750px;
+  font-size: 200%;
+}
+.header h4 {
+  position: absolute;
+  top: 40px;
+  left: 820px;
+  font-size: 150%;
+}
+.header
+{
+    background-color:  #1a75ff;
+    height: 100px;
+
+}
+.header1{
+    border:5px ridge blue;
+}
+body{
+    background-color:  #ffffff;
+    border: 3px solid blue;
+    height:500px;
+}
+.messege{
+    margin-left: 20px;
+    padding:6px;
+    color:#0000cc;
+}
+h3{
+     margin-left: 0px;
+  text-decoration:underline;  
+  background-color: #3333ff;
+    background: linear-gradient(to right, #3333ff, #80bfff);
+   font-size: 24px;
+padding:12px;
+}
+h2{
+    text-align: center;
+     font-weight: bold;
+     font-size: 40px;
+}
+h4{
+    font-size: 20px;
+}
+.messege h4{
+    position:relative;
+    top:30px;
+    left:2px;
+}
+.success img{
+    float:left; 
+    display: inline-block !important;
+}
+.success h4{
+   display:inline;
+}

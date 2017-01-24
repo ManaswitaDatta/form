@@ -1,0 +1,125 @@
+.date{
+    text-align:right;
+    background-color:  #1a75ff;
+     vertical-align: top;
+     border-bottom: 2px solid blue;
+
+}
+.header img {
+  float: left;
+   border: solid 1px #E5E5E5; 
+}
+
+.header h2 {
+  position: absolute;
+  top: 7px;
+  left: 750px;
+  font-size: 200%;
+}
+.header h4 {
+  position: absolute;
+  top: 40px;
+  left: 820px;
+  font-size: 150%;
+}
+.header
+{
+    background-color:  #1a75ff;
+    height: 100px;
+}
+body {
+border: 3px solid blue;
+margin-left: 5px;
+  margin-right: 0px;
+   
+ 
+}
+h1{
+    color:#0000b3;
+     position: absolute;
+  top: 160px;
+  left: 800px;
+  font-size: 250%;
+}
+form{
+  margin-left: 40px; 
+  margin-right: 0px;
+   vertical-align: top;
+}
+.person{
+     margin-left: 10px;  
+}
+
+  
+input:not(.button), textarea,select{ 
+    padding: 9px; 
+    font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+    width: 270px; 
+    background: #FFFFFF; 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    background:-webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+     border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+ margin-left: 12px;
+ 
+    } 
+    input.radio{
+       
+       width:auto;  
+       padding: 9px; 
+       transform: scale(2);
+       background-color:  #FFFFFF;
+       margin-left: 10px;
+    }
+   
+
+textarea { 
+    width: 400px; 
+    max-width: 400px; 
+    height: 150px; 
+    line-height: 150%; 
+    } 
+    label { 
+    margin-left: 10px; 
+    font-size: 23px;
+    } 
+
+input:hover, textarea:hover, 
+input:focus, textarea:focus { 
+    border-color: #0000ff; 
+    
+/*    border: solid 1px #707070;*/
+  box-shadow: 0 0 5px 1px #969696;
+    } 
+     input.button{
+	background-color:#3333ff;
+	color:white;
+	font-family: "trebuchet ms", arial, sans-serif;
+	border: 1px solid black;
+        height:40px;
+        width:110px;
+         margin-bottom:5px;
+         border-radius: 5px; 
+         
+}
+input.button:not([type=submit]){
+    margin-left: 700px;
+}
+input[type=submit]
+{
+    margin-left: 100px;
+}
+h3{
+    background-color: #3333ff;
+    background: linear-gradient(to right, #3333ff, #80bfff);
+    padding: 12px;
+    font-size: 160%;
+}
+.mar{
+    color:#00264d;
+    font-weight: bold;
+    font-size: 20px;
+}
+input.err,textarea.err {
+  border:solid 1px red;
+}
